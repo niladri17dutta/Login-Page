@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In: Page</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <form>
+            <h1>Log in</h1>
+
+            <div class="mailandpassword">
+                <span>
+                    <img src="Images/email.png" class="mail">
+                </span>
+                <span>
+                    <input class="box" type="text" name="email" placeholder="Email or Phone Number">
+                </span>
+            </div>
+
+            <div class="mailandpassword">
+                <span>
+                    <img src="Images/lock.png" class="lock">
+                </span>
+                <span>
+                    <input class="box" type="password" name="pass" placeholder="Password">
+                </span>
+            </div>
+            
+            <div class="form-check">
+                <span>
+                    <input id="checkBox1" type="checkbox">
+                    <label for="checkBox1">Remember Me</label>
+                </span>
+
+                <span>    
+                    <a href="#"><b>Forgot Password ?</b></a>
+                </span>
+            </div>
+
+            <button type="submit" class="btn" id="btnprimary"><p>Log In</p></button>
+            <h4>Log in with</h4>
+
+            <div class="mb-3" id="form-option">
+                <button type="google"><img src="Images/google.png"></button>
+                <button type="facebook"><img src="Images/facebook.png"></button>
+            </div>
+            
+            <p2>Don't have an account?<br><a href="#">Register Now</a></p2>
+        </form>
+        <div class="image-container">
+            <img src="Images/sideimg.jpg" class="reshtsidepic">
+        </div>
+    </div>
+    
+</body>
+</html>
