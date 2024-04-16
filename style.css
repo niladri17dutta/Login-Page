@@ -52,7 +52,7 @@ body {
     border-radius: 5px;
     padding: 10px;
     margin-left: 7px;
-    width: 38rem; 
+    width: auto; 
 }
 
 .mailandpassword input:focus {
