@@ -14,7 +14,7 @@ body {
 .login-container{
     background-color: white;
     height: 575px;
-    width: 90%;
+    width: 70%;
     margin: 70px;
     border-radius: 10px;
     box-shadow: 10px 10px 15px #868686, -10px -10px 15px #868686, 10px -10px 15px #868686, -10px 10px 15px #868686;
@@ -26,10 +26,11 @@ body {
 .login-container form{
     background:white;
     width: 50%;
-    padding: 20px;
+    height: 575px;
+    padding: 30px 60px 30px 60px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .login-container h1{
@@ -37,13 +38,15 @@ body {
     color: black;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .mailandpassword {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     box-shadow: 0px 1px 0px #afa9a8;
 }
 
@@ -60,6 +63,7 @@ body {
 }
 
 .mailandpassword img{
+    margin-left: 2px;
     width: 25px;
 }
 
@@ -74,6 +78,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .form-check input {
@@ -85,6 +90,7 @@ body {
     border-radius:50px;
     height: 40px;
     width: 100%;
+    margin-top: 20px;
     color: #ededed;
     font-weight: bold;
     font-size: 1.1rem;
@@ -128,7 +134,7 @@ body {
 }
 
 .login-container p2{
-    margin-bottom: 20px;
+    margin-top: 30px;
     color: black;
 }
 
